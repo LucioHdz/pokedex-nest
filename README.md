@@ -27,10 +27,23 @@ $ npm i -g @nestjs/cli
 ## 4. Levantar la base de datos
 
 ```bash 
-docker-compose up -d
+$ docker-compose up -d
 ```
 
-## 5. Reconstrir la base de datos con la semilla
+## 5. Renombrar el archivo .env template
+
+
+Renombrar el archivo ```.env.template``` como ```.env```
+y agregar los datos que faltan en las variables sensibles
+
+
+## 6. Ejecutar la aplicacion
+```bash
+$ yarn start:dev
+```
+
+
+## 6. Reconstrir la base de datos con la semilla
 
 ```postman
 (get) http://localhost:3000/api/v2/seed
