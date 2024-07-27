@@ -30,6 +30,12 @@ $ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+## 5. Reconstrir la base de datos con la semilla
+
+```postman
+(get) http://localhost:3000/api/v2/seed
+```
+
 
 ## Sack Usado
 
